@@ -1,0 +1,54 @@
+html {
+    font-family: sans-serif;
+    color: #0f014f;
+    background-color: rgba(0, 0, 0, 0.88);
+
+}
+
+.box{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    position: relative;
+    text-align: center;
+}
+.name{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 40px
+}
+.timing{
+    text-align: center;
+    margin-top: 40px;
+    width: 300px;
+    margin-left:33%;
+
+    font-size: 30px;
+    color: #212231;
+    background: rgb(202, 202, 218);
+    padding: .5em 3em; /* отступ от текста */
+    border-radius: 10px;
+    border: 7px inset #30159a;
+}
+
+.buttons{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.knopka{
+    /* текст */
+    justify-content: center;
+    position: relative;
+
+    font-size: 20px;
+    color: #0210b2;
+    background: rgba(62, 95, 204, 0.66);
+    padding: .10em 3em; /* отступ от текста */
+    border-radius: 10px;
+    border: 7px inset #0210b2;
+}
+.knopka:hover {
+    background: rgb(202, 202, 218);
+}
+.knopka:active {
+    background: rgb(90, 144, 205);
+}
